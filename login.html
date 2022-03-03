@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="li.css" rel="stylesheet">
+<style>
+</style>
+<script>
+  function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name=="admin" && password=="test01"){  
+     window.location = "http://localhost/backend/addat.html"; 
+  return false;  
+}else if(name==""&& password==""){  
+  alert("empty string...!");  
+  return false;  
+  }  
+} 
+  </script>
+</head>
+<body>
+  <div class="li"><br>
+    <form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" > 
+  <label>Username:</label>
+  <input type="text" name="name" ><br><br>
+  <label>Password : </label>
+  <input type="password" name="password"><br><br>
+  <button type="Submit" name="Login" value="Login">Submit</button>
+  </form>
+  </body>
+</div>
+</html>

@@ -1,0 +1,46 @@
+.li{
+    margin-left: 60%;
+    margin-top: 15%;
+    color: #1E135E;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;  
+}
+input[type=text],
+    input[type=password] 
+    {
+        width: 50%;
+        padding right: 12px 20px;
+        margin: 8px 0;
+        padding:10px;
+        display: inline-block;
+        border: 1px solid #4BC38A;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    button {
+        background-color: #4BC38A;
+        color: white;
+        right: 34px 50px;
+        margin: 10px 0;
+        margin-left: 25%;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 20%;
+        padding:15px
+    }
+          
+    h1{
+        display: flex;
+        align-items: center;
+        
+    }
+    button:hover {
+        opacity: 0.8;
+    }
+body {
+  background-image: url('li.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
